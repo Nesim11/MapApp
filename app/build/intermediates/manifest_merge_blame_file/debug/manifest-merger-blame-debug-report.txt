@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nesim11.MapApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:5:3-76
+11-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:5:20-74
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:6:3-74
+12-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:6:20-72
+13
+14    <uses-feature
+14-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:9:5-11:35
+15        android:glEsVersion="0x00020000"
+15-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:10:9-41
+16        android:required="true" />
+16-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:11:9-32
+17    <uses-feature
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:12:5-14:36
+18        android:name="android.hardware.wifi"
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:13:9-45
+19        android:required="false" /> <!-- Implied by ACCESS_WIFI_STATE. -->
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:14:9-33
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:16:5-67
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:16:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:17:5-79
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:18:5-76
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.2.1] /Users/nesim/.gradle/caches/transforms-3/27d0f72a8518d25eafa1c435b4a6a934/transformed/jetified-mapbox-android-sdk-9.2.1/AndroidManifest.xml:18:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:5-68
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:12:22-65
+24
+25    <application
+25-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:8:3-24:17
+26        android:allowBackup="true"
+26-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:10:5-31
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] /Users/nesim/.gradle/caches/transforms-3/aa6c96aaba8819cb20a0f84bd4c87c95/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:11:5-39
+30        android:label="@string/application_name"
+30-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:12:5-45
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:13:5-50
+32        android:supportsRtl="true"
+32-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:14:5-31
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:15:5-36
+35        <activity
+35-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:16:5-23:16
+36            android:name="com.nesim11.MapApp.MainActivity"
+36-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:16:15-61
+37            android:screenOrientation="portrait" >
+37-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:17:5-41
+38            <intent-filter>
+38-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:18:7-22:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:19:9-61
+39-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:19:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:21:9-69
+41-->/Users/nesim/Desktop/MapApp/app/src/main/AndroidManifest.xml:21:19-66
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.mapbox.services.android.navigation.ui.v5.MapboxNavigationActivity" />
+44-->[com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.43.0-alpha.1] /Users/nesim/.gradle/caches/transforms-3/e50620253eba47fd6a5c0444ddfd3737/transformed/jetified-mapbox-android-navigation-ui-0.43.0-alpha.1/AndroidManifest.xml:10:9-106
+44-->[com.mapbox.mapboxsdk:mapbox-android-navigation-ui:0.43.0-alpha.1] /Users/nesim/.gradle/caches/transforms-3/e50620253eba47fd6a5c0444ddfd3737/transformed/jetified-mapbox-android-navigation-ui-0.43.0-alpha.1/AndroidManifest.xml:10:19-103
+45
+46        <service android:name="com.mapbox.services.android.navigation.v5.internal.navigation.NavigationService" />
+46-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.43.0-alpha.1] /Users/nesim/.gradle/caches/transforms-3/7359a049634b68503032313fbac8d2f2/transformed/jetified-mapbox-android-navigation-0.43.0-alpha.1/AndroidManifest.xml:12:9-115
+46-->[com.mapbox.mapboxsdk:mapbox-android-navigation:0.43.0-alpha.1] /Users/nesim/.gradle/caches/transforms-3/7359a049634b68503032313fbac8d2f2/transformed/jetified-mapbox-android-navigation-0.43.0-alpha.1/AndroidManifest.xml:12:18-112
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:17.5.0] /Users/nesim/.gradle/caches/transforms-3/0c6e6dc2521ffbc5621219994edb510a/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:17.5.0] /Users/nesim/.gradle/caches/transforms-3/0c6e6dc2521ffbc5621219994edb510a/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:17.5.0] /Users/nesim/.gradle/caches/transforms-3/0c6e6dc2521ffbc5621219994edb510a/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:17.5.0] /Users/nesim/.gradle/caches/transforms-3/0c6e6dc2521ffbc5621219994edb510a/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:17.5.0] /Users/nesim/.gradle/caches/transforms-3/88cabe769fe2672406820d51838e8984/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:17.5.0] /Users/nesim/.gradle/caches/transforms-3/88cabe769fe2672406820d51838e8984/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:17.5.0] /Users/nesim/.gradle/caches/transforms-3/88cabe769fe2672406820d51838e8984/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+56
+57        <provider
+57-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+58            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+58-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+59            android:authorities="com.nesim11.MapApp.mapboxtelemetryinitprovider"
+59-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+60            android:exported="false"
+60-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+61            android:initOrder="100" />
+61-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+62
+63        <service
+63-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+64            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+64-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+65            android:permission="android.permission.BIND_JOB_SERVICE" />
+65-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/nesim/.gradle/caches/transforms-3/e200e3e7480a715fdac1a1dc5d83954b/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+66
+67        <provider
+67-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/nesim/.gradle/caches/transforms-3/ecaa605414f0d3fa35a2b74b5698d726/transformed/jetified-lifecycle-process-2.0.0-rc01/AndroidManifest.xml:23:9-27:43
+68            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/nesim/.gradle/caches/transforms-3/ecaa605414f0d3fa35a2b74b5698d726/transformed/jetified-lifecycle-process-2.0.0-rc01/AndroidManifest.xml:24:13-79
+69            android:authorities="com.nesim11.MapApp.lifecycle-process"
+69-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/nesim/.gradle/caches/transforms-3/ecaa605414f0d3fa35a2b74b5698d726/transformed/jetified-lifecycle-process-2.0.0-rc01/AndroidManifest.xml:25:13-69
+70            android:exported="false"
+70-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/nesim/.gradle/caches/transforms-3/ecaa605414f0d3fa35a2b74b5698d726/transformed/jetified-lifecycle-process-2.0.0-rc01/AndroidManifest.xml:26:13-37
+71            android:multiprocess="true" />
+71-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] /Users/nesim/.gradle/caches/transforms-3/ecaa605414f0d3fa35a2b74b5698d726/transformed/jetified-lifecycle-process-2.0.0-rc01/AndroidManifest.xml:27:13-40
+72        <provider
+72-->[com.squareup.picasso:picasso:2.71828] /Users/nesim/.gradle/caches/transforms-3/4cdd483d6b1989e9851c26c4df7a3fc6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+73            android:name="com.squareup.picasso.PicassoProvider"
+73-->[com.squareup.picasso:picasso:2.71828] /Users/nesim/.gradle/caches/transforms-3/4cdd483d6b1989e9851c26c4df7a3fc6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+74            android:authorities="com.nesim11.MapApp.com.squareup.picasso"
+74-->[com.squareup.picasso:picasso:2.71828] /Users/nesim/.gradle/caches/transforms-3/4cdd483d6b1989e9851c26c4df7a3fc6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+75            android:exported="false" />
+75-->[com.squareup.picasso:picasso:2.71828] /Users/nesim/.gradle/caches/transforms-3/4cdd483d6b1989e9851c26c4df7a3fc6/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+76    </application>
+77
+78</manifest>
